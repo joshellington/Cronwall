@@ -1,0 +1,13 @@
+api_keys:
+  tumblr: sDlTyyw4VbEo591INRkb5BKON1QJPJHvx2ESgWs3hFCy1sezbD
+path: /Users/josh/Pictures/Cronwalls/
+sites:
+  -
+    url: http://nos.twnsnd.co
+    type: tumblr
+  -
+    url: http://unsplash.com/
+    type: tumblr
+  -
+    url: http://desktopwallpaperproject.tumblr.com/
+    type: tumblr
