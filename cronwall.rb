@@ -4,7 +4,7 @@ require 'uri'
 require 'json'
 require 'ap'
 
-CONFIG = YAML.load_file('config.yml')
+CONFIG = YAML.load_file(File.expand_path(File.dirname(__FILE__)) + '/config.yml')
 
 def fetch(site)
   if site['type'] == 'tumblr'
@@ -49,4 +49,12 @@ def init
   end
 end
 
+ap "//////////////////////"
+ap "Running at #{Time.now.strftime('%m/%d/%Y %H:%M')}"
+ap "//////////////////////"
+
 init()
+
+ap "//////////////////////"
+ap "Done."
+ap "//////////////////////"
