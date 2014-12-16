@@ -16,7 +16,7 @@ def fetch(site)
       if post['photos']
         photo = post['photos'][0]['original_size']
         
-        if photo['width'] > 1100
+        if photo['width'] > 1000
           save(photo['url'])
         end
       end
